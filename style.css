@@ -1,0 +1,149 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  border-collapse: collapse;
+  color: #000;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 100px;
+}
+
+h3 {
+  font-size: 24;
+  font-weight: lighter;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.wrap {
+  background-image: url("images/intro.png");
+  width: 100%;
+  height: 718px;
+}
+
+.main_header {
+  display: flex;
+  width: 1280px;
+  margin: auto;
+  height: 86px;
+}
+
+.search {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 24px;
+}
+
+.search > form > input {
+  border: none;
+  width: 240px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0);
+  padding-left: 10px;
+  color: white;
+}
+
+.search > form > span {
+ width: 50px;
+ color: white;
+ font-weight: bold;
+ cursor: pointer;
+}
+
+.gnb_title {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 86px;
+  width: 980px;
+  }
+
+.gnb_title > li > a{
+  margin-left: 84px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: white;
+}
+
+.title {
+  width: 100%;
+  margin: 231px auto 231px auto;
+  text-align: center;
+ }
+
+ .title > h1, .title > h3 {
+   color: white;
+ }
+
+ .amount {
+   position: relative;
+   top: 20px;
+   display: flex;
+   width: 1280px;
+   background: white;
+   margin: auto;
+   box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+ }
+
+ .amount > li {
+   flex: 1;
+   height: 132px;
+   text-align: center;
+ }
+
+ .amount > li > div {
+   height: 57px;
+   margin-top: 37px;
+   text-align: center;
+  }
+  
+  .amount > li:not(:last-child) > div{
+    border-right: 1px solid #E1E1E1;
+  }
+
+  .about {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .icons {
+    display: flex;
+    width: 1280px;
+    height: 302px;
+    margin: auto;
+    
+  }
+
+  .icons > li {
+    background: white;
+    flex: 1;
+    height: 302px;
+    margin-top: 49px;
+    text-align: center;
+  }
+
+  .icons > il:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .icon_img {
+    margin-top: 20px;
+  }
+   
+  .more {
+    width: 100px;
+    height: 30px;
+    background: #2f7af4;
+    font-size: 12px;
+    line-height: 30px;
+    margin: 20px auto;
+
+  }
